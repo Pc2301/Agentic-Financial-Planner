@@ -83,8 +83,17 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 STATIC_DIR = PROJECT_ROOT / "static"
 # Mount static files and templates
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
-app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
-templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
+# Mount static files and templates only if directories exist
+if STATIC_DIR.exists():
+    app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+else:
+    logger.warning(f"Static directory {STATIC_DIR} not found, skipping static file mounting")
+
+if TEMPLATES_DIR.exists():
+    templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
+else:
+    logger.warning(f"Templates directory {TEMPLATES_DIR} not found")
+    templates = None
 
 
 # Pydantic models for API requests
