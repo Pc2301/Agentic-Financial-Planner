@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "cd src && python main_single_file.py",
+    "startCommand": "python -m src.main_single_file",
     "healthcheckPath": "/health"
   }
 }
