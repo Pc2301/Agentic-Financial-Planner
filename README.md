@@ -64,6 +64,10 @@ python src/main.py
 - **Financial Modeling Prep**: For financial statements
 - **News API**: For financial news sentiment analysis
 
+## Demo
+<img width="1509" height="816" alt="image" src="https://github.com/user-attachments/assets/3c762639-2a70-4717-8329-f45fc9c8c359" />
+
+
 ## License
 
 MIT License
