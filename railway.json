@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "cd src && python main_single_file.py",
+    "healthcheckPath": "/health"
+  }
+}

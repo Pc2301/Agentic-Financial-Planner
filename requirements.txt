@@ -1,0 +1,22 @@
+# Core dependencies
+fastapi
+uvicorn
+pydantic
+python-dotenv
+httpx
+
+# Financial data and analysis
+yfinance
+pandas
+numpy
+requests
+alpha_vantage
+
+# Database
+sqlalchemy
+
+# Web interface
+jinja2
+
+# Utilities
+python-dateutil

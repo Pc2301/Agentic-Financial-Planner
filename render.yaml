@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: mcp-financial-agent
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: cd src && python main_single_file.py
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 10000
+      - key: DEBUG
+        value: False

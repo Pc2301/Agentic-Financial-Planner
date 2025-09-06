@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# App artifacts
+logs/
+*.db
+
+# Node/Front (if any)
+node_modules/
+dist/
+build/
