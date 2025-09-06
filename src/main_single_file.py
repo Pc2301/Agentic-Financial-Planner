@@ -20,11 +20,11 @@ from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 
 # Import all our services
-from src.mcp.client import MCPClient
-from src.data.market_data import MarketDataService
-from src.analysis.analyzer import FinancialAnalyzer
-from src.portfolio.manager import PortfolioManager
-from src.agent.financial_agent import FinancialAgent, Goal
+from mcp.client import MCPClient
+from data.market_data import MarketDataService
+from analysis.analyzer import FinancialAnalyzer
+from portfolio.manager import PortfolioManager
+from agent.financial_agent import FinancialAgent, Goal
 # Lifespan management
 from contextlib import asynccontextmanager
 
