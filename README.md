@@ -4,14 +4,14 @@ A comprehensive financial analysis tool powered by Model Context Protocol (MCP) 
 
 ## Features
 
-- 🤖 **MCP Integration**: Leverages Model Context Protocol for enhanced AI-powered analysis
-- 📊 **Financial Data Analysis**: Real-time stock prices, market trends, and financial ratios
-- 💼 **Portfolio Management**: Track and analyze investment portfolios
-- ⚠️ **Risk Assessment**: Calculate VaR, Sharpe ratio, and other risk metrics
-- 📈 **Technical Analysis**: Moving averages, RSI, MACD, and more indicators
-- 📋 **Reporting**: Generate comprehensive financial reports
-- 🌐 **Interactive Dashboard**: Web-based interface for financial analysis
-- 🔄 **Real-time Updates**: Live market data integration
+- **MCP Integration**: Leverages Model Context Protocol for enhanced AI-powered analysis
+- **Financial Data Analysis**: Real-time stock prices, market trends, and financial ratios
+- **Portfolio Management**: Track and analyze investment portfolios
+- **Risk Assessment**: Calculate VaR, Sharpe ratio, and other risk metrics
+- **Technical Analysis**: Moving averages, RSI, MACD, and more indicators
+- **Reporting**: Generate comprehensive financial reports
+- **Interactive Dashboard**: Web-based interface for financial analysis
+- **Real-time Updates**: Live market data integration
 
 ## Architecture Diagram
 
